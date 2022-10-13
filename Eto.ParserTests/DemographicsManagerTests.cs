@@ -9,7 +9,7 @@ namespace Eto.ParserTests
         [TestMethod]
         public void GetAllDemographicsForParticpant_Returns_All_Data()
         {
-            var dgManager = new DemographicsManager(domainRoot: "https://devportal.scsonline.ca");
+            var dgManager = new DemographicsManager(domainRoot: "https://example.com");
             var clientGuid = "4b1580a3-55eb-4e82-b76e-6e9eec55d4c3";
 
             //Act
@@ -23,7 +23,7 @@ namespace Eto.ParserTests
         public void GetOptionsForDropdown_Returns_Three_Results()
         {
             //Arrange
-            var dgManager = new DemographicsManager(domainRoot: "https://devportal.scsonline.ca");
+            var dgManager = new DemographicsManager(domainRoot: "https://example.com");
             var clientGuid = "4b1580a3-55eb-4e82-b76e-6e9eec55d4c3";
 
             //Act
